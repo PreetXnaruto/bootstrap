@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scrollspy</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav id="navbar-example2" class="navbar bg-body-tertiary px-3 mb-3">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <ul class="nav nav-pills">
+            <li class="nav-item">
+                <a class="nav-link" href="#scrollspyHeading1">First</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#scrollspyHeading2">Second</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                    aria-expanded="false">Dropdown</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#scrollspyHeading3">Third</a></li>
+                    <li><a class="dropdown-item" href="#scrollspyHeading4">Fourth</a></li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#scrollspyHeading5">Fifth</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%"
+        data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
+        <h4 id="scrollspyHeading1">Naruto</h4>
+        <p>Naruto Uzumaki (100 words)
+        Naruto Uzumaki is a determined and spirited ninja from the Hidden Leaf Village. Born with the Nine-Tails Fox sealed
+        inside him, he was shunned by others as a child. Despite loneliness, he never gave up on his dream of becoming Hokage.
+        With his unbreakable will, he formed strong bonds, especially with Sasuke and Sakura. Trained by legendary ninjas like
+        Jiraiya and Kakashi, Naruto mastered powerful techniques like the Rasengan and Sage Mode. He played a key role in ending
+        the Fourth Great Ninja War and bringing peace to the world. Ultimately, he achieved his dream and became the Seventh
+        Hokage.
+            </p>
+        <h4 id="scrollspyHeading2">Kakashi</h4>
+        <p>Kakashi Hatake, known as the "Copy Ninja," is a highly skilled shinobi from the Hidden Leaf Village. A prodigy since
+        childhood, he joined the ANBU and became famous for his calm demeanor and Sharingan eye. As the leader of Team 7, he
+        mentored Naruto, Sasuke, and Sakura, helping shape their growth. Despite his tragic past, including the loss of friends
+        like Obito and Rin, Kakashi remained strong and wise. He fought bravely in the Great Ninja Wars and played a key role in
+        protecting the village. After the war, he became the Sixth Hokage, earning deep respect from everyone.</p>
+        <h4 id="scrollspyHeading3">Jiraya</h4>
+        <p>Jiraiya was a powerful and eccentric ninja from the Hidden Leaf Village, known as one of the Legendary Sannin. He
+        trained under the Third Hokage and later mentored famous students like Minato Namikaze and Naruto Uzumaki. Despite his
+        goofy personality and love for writing romance novels, Jiraiya was a wise and serious warrior when needed. He traveled
+        the world to gather knowledge and protect peace. Jiraiya discovered the secrets of the Akatsuki and gave his life
+        fighting Pain to protect the village. His teachings lived on through Naruto, and he is remembered as a true hero and
+        great <p> 
+        <h4 id="scrollspyHeading4">Madara Uchiha</h4>
+        <p>Madara Uchiha was one of the most powerful and feared shinobi in history. A founder of the Hidden Leaf Village, he
+        dreamed of peace but clashed with Hashirama Senju over how to achieve it. He awakened the Eternal Mangekyō Sharingan and
+        later the Rinnegan, gaining unmatched strength. Betrayed by the world, Madara sought to control it through the Infinite
+        Tsukuyomi, a dream world free of conflict. He manipulated events from the shadows and returned during the Fourth Great
+        Ninja War as a nearly unstoppable force. Though ultimately defeated, Madara remains one of the most complex and
+        legendary figures in the ninja world.</p>
+        <h4 id="scrollspyHeading5">Obito Uchiha</h4>
+        <p>Obito Uchiha was a member of the Uchiha clan who once dreamed of becoming Hokage. Kind-hearted and full of hope, he was
+        thought to have died during a mission as a child. Saved by Madara Uchiha, Obito was manipulated after witnessing the
+        death of Rin, the girl he loved. Believing the world was broken, he adopted Madara’s plan to create the Infinite
+        Tsukuyomi and became the masked villain known as Tobi. Despite his dark path, Naruto’s determination reminded him of his
+        true self. In the end, Obito redeemed himself, sacrificing his life to protect Naruto and help save the world.</p>
+    </div>
+</body>
+
+</html>
